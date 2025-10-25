@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.testclient.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "testclient.refmap.json",
+  "client": [
+    "ClientPlayerEntityMixin",
+    "PlayerInteractionManagerMixin",
+    "GameRendererMixin",
+    "LivingEntityMixin",
+    "ClientPlayNetworkHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
